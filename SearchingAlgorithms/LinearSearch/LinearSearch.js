@@ -1,5 +1,5 @@
 export class LinearSearch {
-  find(source, target) {
+  static find(source, target) {
     if (Array.isArray(source)) {
       for (let i = 0; i < source.length; i++) {
         if (source[i] == target) return i;
@@ -17,7 +17,7 @@ export class LinearSearch {
     return -1;
   }
 
-  has(source, target) {
+  static has(source, target) {
     if (Array.isArray(source)) {
       for (let i = 0; i < source.length; i++) {
         if (source[i] == target) return true;
@@ -34,7 +34,7 @@ export class LinearSearch {
     return false;
   }
 
-  findIn2DArr(arr, target) {
+  static findIn2DArr(arr, target) {
     for (let row = 0; row < arr.length; row++) {
       for (let col = 0; col < arr[row].length; col++) {
         if (arr[row][col] == target) {
@@ -44,7 +44,7 @@ export class LinearSearch {
     }
     return [-1, -1];
   }
-  hasIn2DArr(arr, target) {
+  static hasIn2DArr(arr, target) {
     for (let row = 0; row < arr.length; row++) {
       for (let col = 0; col < arr[row].length; col++) {
         if (arr[row][col] == target) {
