@@ -6,3 +6,4 @@ Completed:
 1) LinearSearch
 2) BinarySearch
 3) SelectionSort
+4) BubbleSort
