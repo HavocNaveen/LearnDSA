@@ -7,3 +7,4 @@ Completed:
 2) BinarySearch
 3) SelectionSort
 4) BubbleSort
+5) InsertionSort
